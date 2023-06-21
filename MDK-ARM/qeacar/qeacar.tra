@@ -1,0 +1,39 @@
+*** Creating Trace Output File 'qeacar\qeacar.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"qeacar\startup_stm32f103xe.o"'
+### List of Objects: adding '"qeacar\main.o"'
+### List of Objects: adding '"qeacar\gpio.o"'
+### List of Objects: adding '"qeacar\tim.o"'
+### List of Objects: adding '"qeacar\stm32f1xx_it.o"'
+### List of Objects: adding '"qeacar\stm32f1xx_hal_msp.o"'
+### List of Objects: adding '"qeacar\stm32f1xx_hal_gpio_ex.o"'
+### List of Objects: adding '"qeacar\stm32f1xx_hal_tim.o"'
+### List of Objects: adding '"qeacar\stm32f1xx_hal_tim_ex.o"'
+### List of Objects: adding '"qeacar\stm32f1xx_hal.o"'
+### List of Objects: adding '"qeacar\stm32f1xx_hal_rcc.o"'
+### List of Objects: adding '"qeacar\stm32f1xx_hal_rcc_ex.o"'
+### List of Objects: adding '"qeacar\stm32f1xx_hal_gpio.o"'
+### List of Objects: adding '"qeacar\stm32f1xx_hal_dma.o"'
+### List of Objects: adding '"qeacar\stm32f1xx_hal_cortex.o"'
+### List of Objects: adding '"qeacar\stm32f1xx_hal_pwr.o"'
+### List of Objects: adding '"qeacar\stm32f1xx_hal_flash.o"'
+### List of Objects: adding '"qeacar\stm32f1xx_hal_flash_ex.o"'
+### List of Objects: adding '"qeacar\stm32f1xx_hal_exti.o"'
+### List of Objects: adding '"qeacar\system_stm32f1xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "qeacar\startup_stm32f103xe.o" "qeacar\main.o" "qeacar\gpio.o" "qeacar\tim.o" "qeacar\stm32f1xx_it.o" "qeacar\stm32f1xx_hal_msp.o" "qeacar\stm32f1xx_hal_gpio_ex.o" "qeacar\stm32f1xx_hal_tim.o" "qeacar\stm32f1xx_hal_tim_ex.o" "qeacar\stm32f1xx_hal.o" "qeacar\stm32f1xx_hal_rcc.o" "qeacar\stm32f1xx_hal_rcc_ex.o" "qeacar\stm32f1xx_hal_gpio.o" "qeacar\stm32f1xx_hal_dma.o" "qeacar\stm32f1xx_hal_cortex.o" "qeacar\stm32f1xx_hal_pwr.o" "qeacar\stm32f1xx_hal_flash.o" "qeacar\stm32f1xx_hal_flash_ex.o" "qeacar\stm32f1xx_hal_exti.o" "qeacar\system_stm32f1xx.o" 
+--strict --scatter "qeacar\qeacar.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "qeacar.map" -o qeacar\qeacar.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'qeacar\qeacar.axf'
+### ADS-LD Command File: 'qeacar\qeacar.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'qeacar\qeacar.lnp', Handle=0x0000062C
+### Writing '.lnp' file
+### ADS-LD Command file 'qeacar\qeacar.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
